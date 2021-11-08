@@ -1,4 +1,3 @@
-#include <vector>
 #include <iostream>
 using namespace std;
 
@@ -9,8 +8,8 @@ ll n;
 
 void solve() {
     cin >> n;
-
     cout << n << " ";
+
     while (n != 1) {
         if (n % 2 == 0) {
             n /= 2;
