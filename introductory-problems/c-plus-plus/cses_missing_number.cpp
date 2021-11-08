@@ -1,4 +1,3 @@
-#include <vector>
 #include <iostream>
 using namespace std;
 
@@ -11,9 +10,9 @@ void solve() {
     cin >> n;
     
     for (int i = 1; i < n; ++i) {
-        int a;
-        cin >> a;
-        sum += a;
+        int arr_val;
+        cin >> arr_val;
+        sum += arr_val;
     }
 
     cout << n * (n + 1) / 2 - sum;
